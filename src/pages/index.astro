@@ -1,0 +1,50 @@
+---
+import Header from "../components/header.astro";
+
+import track from "../assets/images/3d-render-fleet-delivery-vehicles.png";
+import image1 from "../assets/images/450-4504112_engine-carens-automotive-motors-parts-kia-cerato-clipart.png";
+import image2 from "../assets/images/Lovepik_com-401744084-car-washing.png";
+import image3 from "../assets/images/PngItem_1125131.png";
+import image4 from "../assets/images/PngItem_1125131.png";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<title>Astro</title>
+	</head>
+	<body>
+		<Header/>
+		<main>
+			<section class="pt-[65px] pb-[196px]">
+				<div class="container-fluid relative">
+					<div class="w-[540px]">
+						<h1 class="font-bold text-[60px] mb-4 leading-[76px]">Affordable truck service</h1>
+						<p class="text-[#333333CC] text-[18px] leading-[21.78px] mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.</p>
+						<button class="py-[10px] px-[23px] bg-[#4762FF] rounded-[5px] text-white">Чета сделать</button>
+					</div>
+					<div>
+						<img class="absolute left-[500px] top-0" src={track.src} alt="">
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
+
+<style>
+	body {
+		font-family: Inter;
+	}
+	.container-fluid {
+		max-width: 1110px;
+		width: 100%;
+		margin: 0 auto;
+	}
+</style>
